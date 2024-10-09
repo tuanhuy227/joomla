@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--~
+  ~  @package   AkeebaSocialLogin
+  ~  @copyright Copyright (c)2016-2024 Nicholas K. Dionysopoulos / Akeeba Ltd
+  ~  @license   GNU General Public License version 3, or later
+  -->
+
+<extension type="package" method="upgrade">
+    <name>pkg_sociallogin</name>
+    <version>4.8.2</version>
+    <creationDate>2024-07-24</creationDate>
+    <author>Akeeba Ltd</author>
+    <authorEmail>no-reply@akeeba.com</authorEmail>
+    <authorUrl>https://www.akeeba.com</authorUrl>
+    <packagename>sociallogin</packagename>
+    <url>https://www.akeeba.com</url>
+    <packager>Akeeba Ltd</packager>
+    <packagerurl>https://www.akeeba.com</packagerurl>
+    <copyright>Copyright (c)2016-2024 Nicholas K. Dionysopoulos / Akeeba Ltd</copyright>
+    <license>GNU GPL v3 or later</license>
+    <description>PKG_SOCIALLOGIN_XML_DESCRIPTION</description>
+    <blockChildUninstall>true</blockChildUninstall>
+
+    <files>
+        <file type="plugin" group="system" id="sociallogin">plg_system_sociallogin.zip</file>
+
+        <file type="plugin" group="sociallogin" id="microsoft">plg_sociallogin_microsoft.zip</file>
+    </files>
+
+    <languages folder="language">
+        <language tag="en-GB">en-GB/pkg_sociallogin.sys.ini</language>
+    </languages>
+
+    <scriptfile>script.sociallogin.php</scriptfile>
+
+    <updateservers>
+        <server type="extension" priority="1" name="Akeeba Social Login Updates">https://cdn.akeeba.com/updates/pkgsociallogin.xml</server>
+    </updateservers>
+</extension>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="library" version="3.0" method="upgrade">
+    <name>LIB_MINIORANGESAMLPLUGIN_NAME</name>
+    <libraryname>miniorangesamlplugin</libraryname>
+    <author>miniOrange Security Software Pvt. Ltd.</author>
+	<authorEmail>info@xecurify.com</authorEmail>
+	<authorUrl>www.miniorange.com</authorUrl>
+    <creationDate>May 2017</creationDate>
+    <copyright>Copyright 2017 miniOrange. All Rights Reserved.</copyright>
+    <license>GNU General Public License version 3</license>
+    <version>9.0</version>
+    <description>LIB_MINIORANGESAMLPLUGIN_XML_DESCRIPTION</description>
+    <files>
+	<filename>index.html</filename>
+        <folder>utility</folder>
+    </files>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.lib_miniorangesamlplugin.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.lib_miniorangesamlplugin.sys.ini</language>
+        <language tag="de-DE">language/de-DE/de-DE.lib_miniorangesamlplugin.ini</language>
+        <language tag="de-DE">language/de-DE/de-DE.lib_miniorangesamlplugin.sys.ini</language>
+        <language tag="ru-RU">language/ru-RU/ru-RU.lib_miniorangesamlplugin.ini</language>
+        <language tag="ru-RU">language/ru-RU/ru-RU.lib_miniorangesamlplugin.sys.ini</language>
+        <language tag="nl-NL">language/nl-NL/nl-NL.lib_miniorangesamlplugin.ini</language>
+        <language tag="nl-NL">language/nl-NL/nl-NL.lib_miniorangesamlplugin.sys.ini</language>
+        <language tag="fr-FR">language/fr-FR/fr-FR.lib_miniorangesamlplugin.ini</language>
+        <language tag="fr-FR">language/fr-FR/fr-FR.lib_miniorangesamlplugin.sys.ini</language>
+        <language tag="it-IT">language/it-IT/it-IT.lib_miniorangesamlplugin.ini</language>
+        <language tag="it-IT">language/it-IT/it-IT.lib_miniorangesamlplugin.sys.ini</language>
+        <language tag="zh-CN">language/zh-CN/zh-CN.lib_miniorangesamlplugin.ini</language>
+        <language tag="zh-CN">language/zh-CN/zh-CN.lib_miniorangesamlplugin.sys.ini</language>
+        <language tag="es-ES">language/es-ES/es-ES.lib_miniorangesamlplugin.ini</language>
+        <language tag="es-ES">language/es-ES/es-ES.lib_miniorangesamlplugin.sys.ini</language>
+        <language tag="pt-BR">language/pt-BR/pt-BR.lib_miniorangesamlplugin.ini</language>
+        <language tag="pt-BR">language/pt-BR/pt-BR.lib_miniorangesamlplugin.sys.ini</language>
+    </languages>
+</extension>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="authentication" method="upgrade">
+	<name>plg_authentication_miniorangesaml</name>
+	<author>miniOrange Security Software Pvt. Ltd.</author>
+	<authorEmail>info@xecurify.com</authorEmail>
+	<authorUrl>www.miniorange.com</authorUrl>
+	<creationDate>May 2017</creationDate>
+	<copyright>Copyright 2017 miniOrange. All Rights Reserved.</copyright>
+	<license>GNU General Public License version 3</license>
+	<version>9.0</version>
+	<description>PLG_MINIORANGE_SAML_DESCRIPTION</description>
+	
+	<files>
+		 <filename>index.html</filename>
+		<filename plugin="miniorangesaml">miniorangesaml.php</filename>
+		<folder>saml2</folder>
+		<folder>language</folder>
+		<folder>images</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_authentication_miniorangesaml.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_authentication_miniorangesaml.sys.ini</language>
+		<language tag="de-DE">language/de-DE/de-DE.plg_authentication_miniorangesaml.ini</language>
+        	<language tag="de-DE">language/de-DE/de-DE.plg_authentication_miniorangesaml.sys.ini</language>
+		<language tag="ru-RU">language/ru-RU/ru-RU.plg_authentication_miniorangesaml.ini</language>
+        	<language tag="ru-RU">language/ru-RU/ru-RU.plg_authentication_miniorangesaml.sys.ini</language>
+        	<language tag="nl-NL">language/nl-NL/nl-NL.plg_authentication_miniorangesaml.ini</language>
+        	<language tag="nl-NL">language/nl-NL/nl-NL.plg_authentication_miniorangesaml.sys.ini</language>
+		<language tag="fr-FR">language/fr-FR/fr-FR.plg_authentication_miniorangesaml.ini</language>
+        	<language tag="fr-FR">language/fr-FR/fr-FR.plg_authentication_miniorangesaml.sys.ini</language>
+		<language tag="it-IT">language/it-IT/it-IT.plg_authentication_miniorangesaml.ini</language>
+        	<language tag="it-IT">language/it-IT/it-IT.plg_authentication_miniorangesaml.sys.ini</language>
+		<language tag="zh-CN">language/zh-CN/zh-CN.plg_authentication_miniorangesaml.ini</language>
+        	<language tag="zh-CN">language/zh-CN/zh-CN.plg_authentication_miniorangesaml.sys.ini</language>
+		<language tag="es-ES">language/es-ES/es-ES.plg_authentication_miniorangesaml.ini</language>
+        	<language tag="es-ES">language/es-ES/es-ES.plg_authentication_miniorangesaml.sys.ini</language>
+		<language tag="pt-BR">language/pt-BR/pt-BR.plg_authentication_miniorangesaml.ini</language>
+        	<language tag="pt-BR">language/pt-BR/pt-BR.plg_authentication_miniorangesaml.sys.ini</language>
+	</languages>
+	<config>
+	</config>
+</extension>

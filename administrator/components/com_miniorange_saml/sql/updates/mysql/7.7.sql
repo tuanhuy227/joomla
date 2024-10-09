@@ -1,0 +1,1 @@
+UPDATE `#__miniorange_saml_config` SET `login_link_check` = TRUE  WHERE `id` = 1;

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="package" method="upgrade">
+	<name>zPackage miniOrange SAML Login</name>
+	<packagename>MiniorangeSamlSSO</packagename>
+	<version>9.0</version>
+	<author>miniOrange Security Software Pvt. Ltd.</author>
+	<license>GNU General Public License version 3</license>
+	<authorEmail>info@xecurify.com</authorEmail>
+	<creationDate>May 2017</creationDate>
+	<description></description>
+	<files>
+		<file type="plugin" id="miniorangesaml" group="authentication">plg_authentication_miniorangesaml.zip</file>
+		<file type="library" id="miniorangesamlplugin">lib_miniorangesamlplugin.zip</file>
+		<file type="plugin" id="samlredirect" group="system">plg_system_samlredirect.zip</file>
+		<file type="component" id="miniorangesamlpluginc" >com_miniorange_saml.zip</file>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">/en-GB/en-GB.pkg_miniorangesamlsso.sys.ini</language>
+		<language tag="en-GB">/en-GB/en-GB.pkg_miniorangesamlsso.ini</language>
+		<language tag="de-DE">/de-DE/de-DE.pkg_miniorangesamlsso.ini</language>
+        <language tag="de-DE">/de-DE/de-DE.pkg_miniorangesamlsso.sys.ini</language>
+		<language tag="ru-RU">/ru-RU/ru-RU.pkg_miniorangesamlsso.ini</language>
+        <language tag="ru-RU">/ru-RU/ru-RU.pkg_miniorangesamlsso.sys.ini</language>
+		<language tag="nl-NL">/nl-NL/nl-NL.pkg_miniorangesamlsso.ini</language>
+        <language tag="nl-NL">/nl-NL/nl-NL.pkg_miniorangesamlsso.sys.ini</language>
+		<language tag="fr-FR">/fr-FR/fr-FR.pkg_miniorangesamlsso.ini</language>
+        <language tag="fr-FR">/fr-FR/fr-FR.pkg_miniorangesamlsso.sys.ini</language>
+		<language tag="it-IT">/it-IT/it-IT.pkg_miniorangesamlsso.ini</language>
+        <language tag="it-IT">/it-IT/it-IT.pkg_miniorangesamlsso.sys.ini</language>
+		<language tag="zh-CN">/zh-CN/zh-CN.pkg_miniorangesamlsso.ini</language>
+        <language tag="zh-CN">/zh-CN/zh-CN.pkg_miniorangesamlsso.sys.ini</language>
+		<language tag="es-ES">/es-ES/es-ES.pkg_miniorangesamlsso.ini</language>
+        <language tag="es-ES">/es-ES/es-ES.pkg_miniorangesamlsso.sys.ini</language>
+		<language tag="pt-BR">/pt-BR/pt-BR.pkg_miniorangesamlsso.ini</language>
+        <language tag="pt-BR">/pt-BR/pt-BR.pkg_miniorangesamlsso.sys.ini</language>
+	</languages>
+	<scriptfile>pkg_script.php</scriptfile>
+	<updateservers><server type="extension" priority="1" name="MiniorangeSSO">https://prod-marketing-site.s3.amazonaws.com/plugins/joomla/joomla_plugin_update.xml</server></updateservers>
+</extension>

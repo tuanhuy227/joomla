@@ -1,0 +1,1 @@
+ALTER TABLE `#__miniorange_saml_config` ADD COLUMN `close_admintool_popup` int(11);
